@@ -5,14 +5,20 @@
     display: flex;
     align-items: center;
     border-bottom: 1px solid grey;
-    
+    text-decoration: none;
 }
 
 .title {
     font-family: 'Star Wars', sans-serif;
     width: 100%;
+    text-decoration: none;
+    color: inherit;
 
 }
+a:-webkit-any-link {
+    text-decoration: none;
+    color: inherit;
+  }
 
 .title h2 {
     font-size: xx-large;
@@ -23,5 +29,5 @@
 3px 0px 0px rgb(250, 222, 75),
 0px -1px 0px rgb(250, 222, 75),
 0px 1px 0px rgb(250, 222, 75);
-
+text-decoration: none;
 }
