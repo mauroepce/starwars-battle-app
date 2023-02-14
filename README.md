@@ -1,41 +1,60 @@
-# Desafío técnico: Frontend Software Engineering
+<span id="top"></span>
 
-## Star Wars Battle App
+<p align="center">
+  <img src="https://github.com/mauroepce/starwars-battle-app/blob/main/src/assets/no_image.png" width="350"/>
+</p>
 
+<p align="center">
+   <a href="https://starwarsbtlgame.netlify.app/"><img src="https://raw.githubusercontent.com/gabriel-roque/design/master/btn-open-app.png" width="200"></a>
+</p>
 
+<p align="center">
+  <a href="https://pt-br.reactjs.org/"><img src="https://img.shields.io/badge/ReactJS-17.x-blue"></a>
+  <a href="https://redux.js.org/"><img src="https://img.shields.io/badge/Redux-4.0.x-blue"></a>
+  <a href="https://github.com/reduxjs/redux-thunk"><img src="https://img.shields.io/badge/Redux Thunk-2.3.x-green"></a>
+  <a href="https://reacttraining.com/react-router/web/guides/quick-start"><img src="https://img.shields.io/badge/React Router-5.1.x-blueviolet"></a>
+  <a href="https://www.conventionalcommits.org/en/v1.0.0/"><img src="https://img.shields.io/badge/Commitizen-friendly-green"></a>
+</p>
 
-Bienvenido a su desafío técnico!
+## 💡 Introduction
 
-Este desafío es para validar tu habilidad como Frontend Software Engineering y tiene un tiempo estimado de finalización de 24hs. 
+⚔️ A turn-based RPG concept game based on the Star Wars theme
 
-## Steps 
+## 🚀 Install
 
-01. El title de la app debe ser: Star Wars Battle App
-02. Debe contener un componente Home
-03. El componente Home debe contener un NavBar, un Cards y un List
-04. El componente Cards debe estar dividido en dos y contiene en cada división el componente Card 
-05. El componente Card es un slide que muestra y oculta una card que contiene al menos 6 atributos del character, entre estos deben estar si o sí: image, name e id
-06. El componente List se debe encontrar por debajo del componente cards
+```sh
+$ git clone https://github.com/gabriel-roque/starwars-battle
+$ npm i && npm start
+```
 
-## Tareas
+## 🖼️ Previews
 
-01. Crear Random que es un botón selector random de un personaje de star wars
-02. Crear Search que es un buscador y selector por nombre de un personaje de star wars
-03. Crear AllCharacters que es un botón que nos trae y muestra en el componente List el nombre de todos los personajes de nuestra API
+<img src="./.github/img/side.png">
+<img src="./.github/img/dark-side.png">
+<img src="./.github/img/light-side.png">
+<img src="./.github/img/battle.png">
 
-## Importante
--   Recuerda de reutilizar componentes de ser necesario (no repetir código)
--   Uso adecuado de git. Por favor, no subas tu proyecto a GitHub con solo una confirmación; nosotros
-queremos ver cómo usa GitHub y cómo documentas cada cambio en su código.
+## 👤 Authors
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/gabriel-roque/">
+    <img src="https://github.com/gabriel-roque/design/blob/master/banner-contato-left.png?raw=true" width="400">
+  </a>
+  <a href="https://github.com/gabriel-roque">
+    <img src="https://github.com/gabriel-roque/design/blob/master/banner-contato-right.png?raw=true" width="343">
+  </a>
+</p>
 
-### Material
--   React con: npx create-react-app <nameapp>
--   Estilos con CSS, Material IU, Bootstrap, o cualquier librería a fin. Este trabajo pretende centralizarse en la implementación de React, la aplicación y manipulación de datos desde una api externa y el sentido lógico para desarrollar nuestras funciones.
--   API https://github.com/akabab/starwars-api 
-Siendo el único endpoint el siguiente: https://akabab.github.io/starwars-api/api/all.json
+## 🤝 Contributing
 
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/gabriel-roque/starwars-battle/issues).
 
-### Extras
+## Show your support
 
--   No permitir que en una misma vista se enfrente el mismo personaje (que aparezca en ambos componentes) a la hora de buscar o seleccionar uno random. 
+Give a ⭐️ if this project helped you!
+
+[🔝 back to top](#top)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gabriel-roque/design/master/logo-gabriel-roque.png" width="200"/>
+</p>
