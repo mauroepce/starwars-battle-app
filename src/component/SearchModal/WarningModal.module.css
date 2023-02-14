@@ -1,0 +1,50 @@
+.box{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  border: '2px solid #000';
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+
+}
+
+.content{
+    padding: 20px;
+   text-align: center;
+   color: black;
+}
+
+.header{
+    display: grid;
+    place-items: center;
+padding: 20px 20px 5px 20px;
+margin-bottom: 5px;
+}
+
+.header i {
+    color: black;
+}
+
+.button{
+    margin-bottom: 18px;
+    color: black;
+    height: 35px;
+  letter-spacing: 0.25px;
+  min-width: 100px;
+    border-radius: 20px;
+    border: 1px solid rgb(11, 174, 103);
+    background: transparent;
+}
+
+.button:hover {
+    background: rgb(7, 212, 123);
+}
+
+.button:active {
+    box-shadow: none;
+  transform: translate(2px, 2px);
+   }

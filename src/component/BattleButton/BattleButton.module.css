@@ -1,0 +1,27 @@
+.button {
+    font-family: monospace;
+  font-size: 1.5rem;
+  color: #FAFAFA;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #FAFAFA;
+  background: #252525;
+  box-shadow: 3px 3px #fafafa;
+  cursor: pointer;
+  margin: 35px 0;
+  }
+  
+  .button:hover{
+    background-color: #fade4b;
+    font-weight: bold;
+    color: #252525;
+    box-shadow: 3px 3px #fade4b;
+    border: 2px solid #252525;
+    
+  }
+  
+  .button:active {
+    box-shadow: none;
+  transform: translate(2px, 2px);
+   }

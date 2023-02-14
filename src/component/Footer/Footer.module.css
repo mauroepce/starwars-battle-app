@@ -1,0 +1,27 @@
+.footerContainer{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:  sans-serif;
+   
+}
+
+.footerContainer span{
+    margin-left: 30px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+    width: 80px;
+  }
+
+  .icons i{
+    color: white;
+  }
+
+ 

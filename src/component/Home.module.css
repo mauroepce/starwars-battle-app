@@ -1,0 +1,159 @@
+.main_container {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.left_container {
+    width: 50%;
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+
+.right_container {
+    width: 50%;
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+
+.character_container{
+    display: grid;
+    place-items: center;
+}
+
+.middleContainer{
+    font-family: 'Star Wars', sans-serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-shadow:
+-1px 0px 0px rgb(250, 222, 75),
+4px 0px 0px rgb(250, 222, 75),
+0px -1px 0px rgb(250, 222, 75),
+0px 1px 0px rgb(250, 222, 75);
+}
+
+.input {
+    background-color: #212121;
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    /* text-align: center; */
+    border: 2px solid white;
+    border-radius: 10px;
+    /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
+  }
+  
+  .input:focus {
+    color: rgb(0, 255, 255);
+    background-color: #212121;
+    outline-color: rgb(0, 255, 255);
+    box-shadow: -3px -3px 15px rgb(0, 255, 255);
+    transition: .1s;
+    transition-property: box-shadow;
+  }
+
+  .buttonName{
+    box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  letter-spacing: 0.25px;
+  min-width: 150px;
+  border: 1px solid #fade4b;
+  background-color: #373739;
+  border-radius: 20px;
+  font-size: 15px;
+  }
+
+  .buttonName:hover{
+    background-color: #fade4b;
+    font-weight: bold;
+    color: black;
+    
+  }
+  
+  .buttonName:active {
+    box-shadow: none;
+  transform: translate(2px, 2px);
+   }
+
+   .playersDisplay h1{
+    color: rgba(27, 253, 156, 0.4);
+    text-shadow: rgba(27, 253, 156) 1px 0 10px;
+    font-size: 80px;
+    animation: 0.5s fadeIn;
+    animation-fill-mode: forwards;
+  
+   }
+
+   .battleButtonContainer{
+    display: grid;
+    place-items: center;
+  }
+
+  .button {
+    font-family: monospace;
+  font-size: 1.5rem;
+  color: #FAFAFA;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #FAFAFA;
+  background: #252525;
+  box-shadow: 3px 3px #fafafa;
+  cursor: pointer;
+  margin: 35px 0;
+  }
+  
+  .button:hover{
+    background-color: #fade4b;
+    font-weight: bold;
+    color: #252525;
+    box-shadow: 3px 3px #fade4b;
+    border: 2px solid #252525;
+    
+  }
+  
+  .button:active {
+    box-shadow: none;
+  transform: translate(2px, 2px);
+   }
+
+   .buttonDisabled {
+    font-family: monospace;
+  font-size: 1.5rem;
+  color: #5e5e5e;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #5e5e5e;
+  background: #252525;
+  box-shadow: 3px 3px #5e5e5e;
+  cursor: pointer;
+  margin: 35px 0;
+   }
+
+   .homeQuote   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px
+   }
+
+   .homeQuote h2{
+    font-family: 'Star Wars', sans-serif;
+    letter-spacing: 3px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-shadow:
+    -1px 0px 0px rgb(250, 222, 75),
+    2px 0px 0px rgb(250, 222, 75),
+    0px -1px 0px rgb(250, 222, 75),
+    0px 1px 0px rgb(250, 222, 75);
+   ;
+   }

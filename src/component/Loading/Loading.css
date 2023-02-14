@@ -1,0 +1,39 @@
+.star-wars-loader {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.star-wars-loader-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 10px solid #f7d74c;
+  border-top-color: #f5a623;
+  animation: spin 1s infinite linear;
+}
+
+.star-wars-loader-outer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 10px solid #f7d74c;
+  border-top-color: #ec970f;
+  opacity: 0.5;
+  animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

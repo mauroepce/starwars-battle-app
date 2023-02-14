@@ -1,0 +1,27 @@
+.navBar  {
+    background-color: transparent;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    
+}
+
+.title {
+    font-family: 'Star Wars', sans-serif;
+    width: 100%;
+
+}
+
+.title h2 {
+    font-size: xx-large;
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+    text-shadow:
+-1px 0px 0px rgb(250, 222, 75),
+3px 0px 0px rgb(250, 222, 75),
+0px -1px 0px rgb(250, 222, 75),
+0px 1px 0px rgb(250, 222, 75);
+
+}

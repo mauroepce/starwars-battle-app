@@ -1,0 +1,19 @@
+.listContainer {
+    /* display: flex;
+    align-items: center; */
+    height: 100%;
+}
+
+.listItem {
+     display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.listItemChosen {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgba(27, 253, 156, 0.4); 
+    border-radius: 8px;
+}
