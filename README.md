@@ -18,21 +18,20 @@
 
 ## 💡 Introduction
 
-⚔️ A turn-based RPG concept game based on the Star Wars theme
+⚔️ A player 1 vs player 2 concept game based on the Star Wars theme. The winner is chosen at random.
 
 ## 🚀 Install
 
 ```sh
-$ git clone https://github.com/gabriel-roque/starwars-battle
-$ npm i && npm start
+$ git clone https://github.com/mauroepce/starwars-battle-app
+$ npm i && npm run dev
 ```
 
 ## 🖼️ Previews
 
-<img src="./.github/img/side.png">
-<img src="./.github/img/dark-side.png">
-<img src="./.github/img/light-side.png">
-<img src="./.github/img/battle.png">
+<img src="https://github.com/mauroepce/starwars-battle-app/blob/main/src/assets/home_view.png">
+<img src="https://github.com/mauroepce/starwars-battle-app/blob/main/src/assets/battle_view.png">
+<img src="https://github.com/mauroepce/starwars-battle-app/blob/main/src/assets/choose_caracter.png">
 
 ## 👤 Authors
 
