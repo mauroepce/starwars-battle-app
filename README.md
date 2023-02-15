@@ -39,7 +39,7 @@ $ npm i && npm run dev
 ## 👤 Authors
 
 <p align="center">
-  <a href="https://cl.linkedin.com/in/mauroepce" target="blank>
+  <a href="https://cl.linkedin.com/in/mauroepce">
     <img src="https://github.com/mauroepce/starwars-battle-app/blob/main/src/assets/mauro_card.png" width="400" />
   </a>
  
