@@ -46,7 +46,7 @@ $ npm i && npm run dev
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/gabriel-roque/starwars-battle/issues).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/mauroepce/starwars-battle-app/issues).
 
 ## Show your support
 
@@ -54,6 +54,4 @@ Give a ⭐️ if this project helped you!
 
 [🔝 back to top](#top)
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/gabriel-roque/design/master/logo-gabriel-roque.png" width="200"/>
-</p>
+
