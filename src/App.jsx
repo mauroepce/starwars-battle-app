@@ -5,12 +5,14 @@ import BattleView from './component/BattleView/BattleView'
 import Footer from './component/Footer/Footer'
 import Home from './component/Home'
 import NavBar from './component/nav/NavBar'
+import Skystar from './component/SkyStars/Skystar'
 
 function App() {
   
 
   return (
     <>
+    <Skystar />
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useDispatch } from 'react-redux'
 import { addBattlePlayers } from '../reducer/actions'
 import Style from "./Home.module.css"
+import Skystar from './SkyStars/Skystar';
 
 function Home() {
 
@@ -28,7 +29,8 @@ function Home() {
 
   return (
     <>
-      <div className={Style.main_container}>
+    
+    <div className={Style.main_container}>
         <div className={Style.left_container}>
 
             <div className={Style.character_container}>
@@ -93,6 +95,8 @@ function Home() {
         >Continue</button>
       </Link>
     </div>
+  
+      
     </>
   )
 }

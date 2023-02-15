@@ -8,7 +8,13 @@ const affiliations = [
     "Jedi Order",
     "Bright Tree tribe",
     "New Republic", 
-    "Resistance"
+    "Resistance",
+    "Apprentice Legislators",
+    "Legislative Youth Program",
+    "Gungan High Council",
+    "Officer corps",
+    "Naboo delegation",
+    "Lars family"
     ]
     
     const lightQuotes = [`Luminous beings we are, not this crude matter. - Yoda`, 
@@ -48,7 +54,7 @@ export const searchAffiliations = (charAffiliations) => {
 
     let searchEqualities = charAffiliations.some( i => affiliations.includes(i))
 
-    if(searchEqualities) {
+    if(searchEqualities || charAffiliations.length === 0) {
         let randomQuoteIndex = Math.floor(Math.random() * lightQuotes.length)
        
         return {quote: lightQuotes[randomQuoteIndex], side:"Light Side"}
