@@ -39,13 +39,10 @@ $ npm i && npm run dev
 ## 👤 Authors
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/gabriel-roque/">
-    <img src="https://github.com/gabriel-roque/design/blob/master/banner-contato-left.png?raw=true" width="400">
+  <a href="https://cl.linkedin.com/in/mauroepce" target="blank>
+    <img src="https://github.com/mauroepce/starwars-battle-app/blob/main/src/assets/mauro_card.png" width="400">
   </a>
-  <a href="https://github.com/gabriel-roque">
-    <img src="https://github.com/gabriel-roque/design/blob/master/banner-contato-right.png?raw=true" width="343">
-  </a>
-</p>
+ 
 
 ## 🤝 Contributing
 
