@@ -14,6 +14,7 @@ const affiliations = [
     "Gungan High Council",
     "Officer corps",
     "Naboo delegation",
+    
     "Lars family"
     ]
     
