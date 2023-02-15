@@ -40,7 +40,7 @@ $ npm i && npm run dev
 
 <p align="center">
   <a href="https://cl.linkedin.com/in/mauroepce" target="blank>
-    <img src="https://github.com/mauroepce/starwars-battle-app/blob/main/src/assets/mauro_card.png" width="400">
+    <img src="https://github.com/mauroepce/starwars-battle-app/blob/da85f32752b4b004fb2a495cc1fa33096174d804/src/assets/mauro_card.png" width="400">
   </a>
  
 
