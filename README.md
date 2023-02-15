@@ -29,9 +29,12 @@ $ npm i && npm run dev
 
 ## 🖼️ Previews
 
-<img src="https://github.com/mauroepce/starwars-battle-app/blob/main/src/assets/home_view.png" width="600">
-<img src="https://github.com/mauroepce/starwars-battle-app/blob/main/src/assets/battle_view.png" width="600">
-<img src="https://github.com/mauroepce/starwars-battle-app/blob/main/src/assets/choose_caracter.png" width="600">
+<p align="center">
+  <img src="https://github.com/mauroepce/starwars-battle-app/blob/main/src/assets/home_view.png" width="600">
+  <img src="https://github.com/mauroepce/starwars-battle-app/blob/main/src/assets/battle_view.png" width="600">
+  <img src="https://github.com/mauroepce/starwars-battle-app/blob/main/src/assets/choose_caracter.png" width="600">
+</p>
+
 
 ## 👤 Authors
 
